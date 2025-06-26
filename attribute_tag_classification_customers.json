@@ -1,0 +1,71 @@
+{
+    "schemas": [
+      {
+        "schema_name": "pci_pii_dataset",
+        "tables": [
+          {
+            "table_name": "customer_records_1",
+            "attributes": [
+              {
+                "attribute_name": "full_name",
+                "tags": {
+                  "sensitivity_category": "pii",
+                  "sensitivity_type": "name"
+                }
+              },
+              {
+                "attribute_name": "email",
+                "tags": {
+                  "sensitivity_category": "pii",
+                  "sensitivity_type": "email"
+                }
+              },
+              {
+                "attribute_name": "phone_number",
+                "tags": {
+                  "sensitivity_category": "pii",
+                  "sensitivity_type": "phone"
+                }
+              },
+              {
+                "attribute_name": "dob",
+                "tags": {
+                  "sensitivity_category": "pii",
+                  "sensitivity_type": "dob"
+                }
+              },
+              {
+                "attribute_name": "ssn",
+                "tags": {
+                  "sensitivity_category": "pii",
+                  "sensitivity_type": "ssn"
+                }
+              },
+              {
+                "attribute_name": "pan",
+                "tags": {
+                  "sensitivity_category": "pci",
+                  "sensitivity_type": "pan"
+                }
+              },
+              {
+                "attribute_name": "address",
+                "tags": {
+                  "sensitivity_category": "pii",
+                  "sensitivity_type": "address"
+                }
+              },
+              {
+                "attribute_name": "exp_date",
+                "tags": {
+                  "sensitivity_category": "pci",
+                  "sensitivity_type": "exp-date"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
